@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug encountered when using Firebase's `addDoc` function. The bug manifests as intermittent errors during document creation, even with seemingly valid data.  The `bug.js` file showcases the problematic code, while `bugSolution.js` presents a solution that mitigates these errors using exponential backoff and error handling.
